@@ -5,6 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  overflow: hidden;
+}
+
+header {
+  /* height: auto; */
+  flex: auto;
+}
+
+main {
+  flex: 1;
+  overflow-y: scroll;
 }
 
 code {
